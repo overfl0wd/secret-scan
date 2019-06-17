@@ -3,8 +3,8 @@
 if [ $# -lt 2 ]
 then
 	echo -e "\e[91mNot enough arguments supplied"
-	echo -e "\e[93mUsage: repo_scan.sh <target directory> <output directory>"
-	echo "Example: repo_scan.sh phoenix/ phoenix/secrets/"
+	echo -e "\e[93mUsage: secretScan.sh <target directory> <output directory>"
+	echo "Example: secretScan.sh phoenix/ phoenix/secrets/"
 	exit 1
 fi
 
